@@ -1,0 +1,58 @@
+@font-face {
+    font-family: cats;
+    src: url(CatsAlphabet.ttf);
+}
+*{
+    margin:0;
+    padding:0;
+}
+body{
+    background-color:black;
+}
+
+.containerr{
+    height:100vh;
+    width:100%;
+    background-image: url('forest\ background.avif');
+    background-size: 100%;
+    padding:0;
+    margin:0;
+    background-color: black;
+}
+
+.Main-Text{
+    padding-top:30vh;
+    text-shadow: 2px 2px green;
+    color:white;
+    font-size:80px;
+    font-family:cats;
+}
+.down{
+    height:100px;
+    width:100px;
+    color:white;
+    text-shadow: 2px 2px green;
+}
+.container{
+    height:200vh;
+    width:100% !important;
+    background-color: black !important;
+}
+.Animals{
+    height: 300px;
+    width:400px;
+    padding:20px;
+    margin:5px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    position: relative;
+}
+h2{
+    color:white;
+    text-align:center;
+    text-transform: capitalize !important;
+}
+.right{
+    text-align:right;
+}
